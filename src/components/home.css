@@ -1,0 +1,81 @@
+.container {
+  background-color: wheat;
+  position: relative;
+}
+
+.container-ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.article-container {
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  max-width: 500px;
+  margin: 20px;
+}
+
+.article-li {
+  width: 300px;
+}
+
+.author-info {
+  color: grey;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  bottom: 20px;
+}
+
+.info-author,
+.info-date {
+  margin: 0 3px;
+}
+
+.article-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 650px;
+  position: relative;
+}
+
+.article-img {
+  max-width: 200px;
+}
+
+.article-text {
+  max-width: 200px;
+  height: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.button-increase {
+  position: absolute;
+  right: 100px;
+  top: 50%;
+  background: inherit;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+}
+
+.button-decrease {
+  position: absolute;
+  left: 100px;
+  top: 50%;
+  background: inherit;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+}
+
+button:hover {
+  text-decoration: underline;
+}
